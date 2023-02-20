@@ -20,6 +20,4 @@ while 2 * pet + kat < s:
 if 2 * pet + kat != s:    
     print(f'Дети не могли сделать {s} журавликов')
 else:
-    print('Серёжа сделал:', pet) 
-    print('Петя сделал:', pet) 
-    print('Катя сделала:', kat)
+    print('Серёжа сделал:', pet), print('Петя сделал:', pet), print('Катя сделала:', kat)
